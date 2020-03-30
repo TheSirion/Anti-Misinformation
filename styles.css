@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+}
+
+.layout {
+    display: grid;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.content {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+
+header {
+    height: 100vh;
+    background-color: brown;
+}
