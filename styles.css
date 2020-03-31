@@ -8,7 +8,7 @@ html, body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 25%);
 }
 
 .content {
@@ -17,7 +17,22 @@ html, body {
     width: 200px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item {
+    display: inline;
+    font-size: 1.5em;
+    color: white;
+    margin: 0 10px 0 10px;
+}
+
 header {
-    height: 100vh;
-    background-color: brown;
+    height: 70vh;
+    margin-bottom: 30px;
+    background-image: url(images/joao-silas-UGQoo2nznz8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
 }
