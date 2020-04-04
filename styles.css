@@ -49,3 +49,10 @@ footer {
     margin-top: 20px;
     background-color: darkgray;
 }
+
+#title {
+    text-align: center;
+    color:white;
+    font-size: 86px;
+    margin-top: 250px;
+}
