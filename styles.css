@@ -8,13 +8,20 @@ html, body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 10px 15px;
+    width: 80%;
+    margin: auto;
 }
 
 .content {
     background-color: aqua;
-    height: 200px;
-    width: 200px;
+    text-align: center;
+    padding: 60px 0 60px 0;
+}
+
+#spotlight {
+    grid-column: 1/-1;
 }
 
 .navbar {
@@ -35,4 +42,17 @@ header {
     background-image: url(images/joao-silas-UGQoo2nznz8-unsplash.jpg);
     background-position: center;
     background-size: cover;
+}
+
+footer {
+    height: 200px;
+    margin-top: 20px;
+    background-color: darkgray;
+}
+
+#title {
+    text-align: center;
+    color:white;
+    font-size: 86px;
+    margin-top: 250px;
 }
